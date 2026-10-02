@@ -10,9 +10,16 @@ const sectors = [
 ];
 
 const caseSections = Array.from(document.querySelectorAll(".case-study"));
+const appBasePath = new URL(".", document.currentScript.src).pathname.replace(/\/$/, "");
 
 function textFrom(element) {
   return element ? element.textContent.replace(/\s+/g, " ").trim() : "";
+}
+
+function assetUrl(path) {
+  if (!path || /^(?:[a-z]+:)?\/\//i.test(path) || path.startsWith("data:")) return path;
+  if (path.startsWith("/")) return path;
+  return `${appBasePath}/${path}`.replace(/\/{2,}/g, "/");
 }
 
 function getCards(section, headingText) {
@@ -80,11 +87,14 @@ function escapeHtml(value) {
 }
 
 function productUrl(product) {
-  return `/products/${product.id}`;
+  return `${appBasePath}/products/${product.id}`.replace(/\/{2,}/g, "/");
 }
 
 function getCurrentProductId() {
-  const pathMatch = window.location.pathname.match(/\/products\/([^/]+)\/?$/);
+  const currentPath = appBasePath && window.location.pathname.startsWith(appBasePath)
+    ? window.location.pathname.slice(appBasePath.length)
+    : window.location.pathname;
+  const pathMatch = currentPath.match(/\/products\/([^/]+)\/?$/);
   if (pathMatch) return pathMatch[1];
   if (window.location.hash) return window.location.hash.slice(1);
   return "";
@@ -111,7 +121,7 @@ function renderDirectory() {
                     .map(
                       (product) => `
                         <article class="product-card">
-                          <img src="${escapeHtml(product.icon)}" alt="${escapeHtml(
+                          <img loading="eager" decoding="sync" src="${escapeHtml(assetUrl(product.icon))}" alt="${escapeHtml(
                         product.iconAlt || `${product.name} product icon`
                       )}" />
                           <h3>${escapeHtml(product.name)}</h3>
@@ -161,7 +171,7 @@ function renderScreens(product) {
             (screen, index) => `
               <article class="screen-showcase ${index % 2 ? "is-reversed" : ""}">
                 <div class="screen-media">
-                  <img src="${escapeHtml(screen.image)}" alt="${escapeHtml(screen.alt)}" />
+                  <img loading="eager" decoding="sync" src="${escapeHtml(assetUrl(screen.image))}" alt="${escapeHtml(screen.alt)}" />
                 </div>
                 <div class="screen-content">
                   <span>${escapeHtml(screen.number)}</span>
@@ -180,9 +190,9 @@ function renderScreens(product) {
 function renderProduct(product) {
   return `
     <article class="product-detail section">
-      <a class="back-link reveal" href="/" data-home>&lt;- Back to Products</a>
+      <a class="back-link reveal" href="${appBasePath || "/"}" data-home>&lt;- Back to Products</a>
       <header class="product-header reveal">
-        <img src="${escapeHtml(product.icon)}" alt="${escapeHtml(product.iconAlt || `${product.name} product icon`)}" />
+        <img loading="eager" decoding="sync" src="${escapeHtml(assetUrl(product.icon))}" alt="${escapeHtml(product.iconAlt || `${product.name} product icon`)}" />
         <h1>${escapeHtml(product.name)}</h1>
         <p>${escapeHtml(product.tagline)}</p>
       </header>
@@ -260,7 +270,7 @@ document.addEventListener("click", (event) => {
 
   if (homeLink) {
     event.preventDefault();
-    window.history.pushState({}, "", "/");
+    window.history.pushState({}, "", appBasePath || "/");
     render();
   }
 });
