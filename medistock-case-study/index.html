@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POC Case Study Showcase</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="POC showcase home">
+        <span class="brand-mark">POC</span>
+        <span>Case Study Showcase</span>
+      </a>
+      <nav class="site-nav" aria-label="POC navigation">
+        <a href="#poc">POC</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="section poc-home" id="poc">
+        <div class="section-heading reveal">
+          <p class="eyebrow">POC</p>
+          <h1>Proof of Concept Showcase</h1>
+          <p class="tagline">Select a POC to view its problem statements, solutions, tech stack and screens.</p>
+        </div>
+
+        <div class="poc-strip" aria-label="Scrollable POC logo list">
+          <a class="poc-logo-card reveal" href="#medistock">
+            <img src="images/medistock-logo.jpg" alt="MediStock POC logo" />
+            <span>MediStock<em>Offline-first pharmacy inventory and billing.</em></span>
+            <small>Deep Dive →</small>
+          </a>
+          <a class="poc-logo-card reveal" href="#motostock">
+            <img src="images/motostock-logo.jpg" alt="Moto Stock POC logo" />
+            <span>Moto Stock<em>Dealership ERP for stock, invoices and stores.</em></span>
+            <small>Deep Dive →</small>
+          </a>
+          <a class="poc-logo-card reveal" href="#glamora">
+            <img src="images/glamora-logo.png" alt="Glamora POC logo" />
+            <span>Glamora<em>Salon management for appointments and clients.</em></span>
+            <small>Deep Dive →</small>
+          </a>
+          <a class="poc-logo-card reveal" href="#dc-college">
+            <img src="images/dc-imports-exports-icon.jpg" alt="DC College POC icon" />
+            <span>DC College<em>Admissions, courses, placements and enquiries.</em></span>
+            <small>Deep Dive →</small>
+          </a>
+          <a class="poc-logo-card reveal" href="#dc-imports-exports">
+            <img src="images/imports-exports-logo.jpg" alt="DC Imports and Exports POC icon" />
+            <span>DC Imports & Exports<em>Global trade, logistics and media presence.</em></span>
+            <small>Deep Dive →</small>
+          </a>
+          <a class="poc-logo-card reveal" href="#dc-realestate">
+            <img src="images/dc-realestate-icon.jpg" alt="DC Real Estate POC icon" />
+            <span>DC Real Estate<em>Residential discovery and project enquiries.</em></span>
+            <small>Deep Dive →</small>
+          </a>          <a class="poc-logo-card reveal" href="#ganesh-constructions">
+            <img src="images/ganesh-constructions-icon.jpg" alt="Ganesh Constructions POC icon" />
+            <span>Ganesh Constructions<em>Construction operations and customer tracking.</em></span>
+            <small>Deep Dive →</small>
+          </a>          <a class="poc-logo-card reveal" href="#dc-radiants">
+            <img src="images/dc-radiants-icon.jpg" alt="DC Radiants POC icon" />
+            <span>DC Radiants<em>Jewellery inventory, sales and product discovery.</em></span>
+            <small>Deep Dive →</small>
+          </a>          <a class="poc-logo-card reveal" href="#physiotherapy">
+            <img src="images/physiotherapy-icon.jpg" alt="Physiotherapy POC icon" />
+            <span>Physiotherapy<em>Care operations, schedules and business visibility.</em></span>
+            <small>Deep Dive →</small>
+          </a>          <a class="poc-logo-card reveal" href="#ss-dental">
+            <img src="images/ss-dental-icon.jpg" alt="SS Dental POC icon" />
+            <span>SS Dental<em>Patient records, appointments and clinic tracking.</em></span>
+            <small>Deep Dive →</small>
+          </a>          <a class="poc-logo-card reveal" href="#sri-venkateswara-constructions">
+            <img src="images/sri-venkateswara-constructions-icon.jpg" alt="Sri Venkateswara Constructions POC icon" />
+            <span>Sri Venkateswara Constructions<em>Project tracking and construction visibility.</em></span>
+            <small>Deep Dive →</small>
+          </a>          <a class="poc-logo-card reveal" href="#lumina">
+            <img src="images/lumina-icon.jpg" alt="Lumina POC icon" />
+            <span>Lumina<em>Hotel bookings, guest services and operations.</em></span>
+            <small>Deep Dive →</small>
+          </a>          <a class="poc-logo-card reveal" href="#sanjeevi-hospitals">
+            <img src="images/sanjeevi-hospitals-icon.jpg" alt="Sanjeevi Hospitals POC icon" />
+            <span>Sanjeevi Hospitals<em>Digital health workflows and analytics.</em></span>
+            <small>Deep Dive →</small>
+          </a>          <a class="poc-logo-card reveal" href="#dc-interiors">
+            <img src="images/dc-interiors-icon.jpg" alt="DC Interiors POC icon" />
+            <span>DC Interiors<em>Interior design approvals and project progress.</em></span>
+            <small>Deep Dive →</small>
+          </a>          <a class="poc-logo-card reveal" href="#sri-parasakthi-peetam">
+            <img src="images/sri-parasakthi-peetam-icon.jpg" alt="Sri Parasakthi Peetam POC icon" />
+            <span>Sri Parasakthi Peetam<em>Spiritual services, bookings and devotee engagement.</em></span>
+            <small>Deep Dive →</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="case-study section" id="medistock">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">MediStock</p>
+            <h2>Offline-first pharmacy inventory and billing application</h2>
+            <p>MediStock is a pharmacy workspace for medicines, stock, purchases, billing, branches, reports and local operational control.</p>
+          </div>
+          <img src="images/medistock-logo.jpg" alt="MediStock illustrated healthcare workspace" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Inventory accuracy</h4><p>Medicine inventory needs to stay accurate, searchable and connected to batch, expiry and branch details.</p></article>
+            <article class="info-card"><span>02</span><h4>Low-stock risk</h4><p>Low-stock conditions need clear visibility before they disrupt sales or daily pharmacy work.</p></article>
+            <article class="info-card"><span>03</span><h4>Disconnected workflows</h4><p>Billing, invoices, purchases, suppliers and branches are connected workflows that can become hard to manage separately.</p></article>
+            <article class="info-card"><span>04</span><h4>Connectivity dependency</h4><p>Core pharmacy operations should remain usable when internet connectivity is unreliable.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>Local pharmacy workspace</h4><p>Medicines, stock, purchases and sales are organized inside one structured operational app.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>Live stock visibility</h4><p>Dashboard and stock screens surface medicine counts, branch availability, pricing, expiry and low-quantity alerts.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>Integrated billing</h4><p>Sales billing captures patient details, bill items, tax, discounts, payment method and refill scheduling.</p></article>
+            <article class="info-card solution-card"><span>04</span><h4>Offline-first persistence</h4><p>SQLite keeps core pharmacy workflows available locally without depending on a web backend for daily operation.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>Flutter</span>
+            <span>Dart</span>
+            <span>SQLite</span>
+            <span>AppController</span>
+            <span>AppDatabase</span>
+            <span>PDF / CSV Export</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen">
+            <div class="screen-frame large">
+              <img src="images/screen-02-overview.jpeg" alt="MediStock overview screen showing total medicines, value, sales and low quantity items" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Overview Dashboard</h4>
+              <p>A pharmacy summary view for medicine count, quantity value, sales and low-stock alerts.</p>
+            </div>
+          </article>
+          <div class="screen-bento">
+            <article class="screen-card"><div class="screen-frame"><img src="images/screen-01-splash.jpeg" alt="MediStock splash screen" /></div><div><span class="screen-number">Screen 02</span><h4>Launch Screen</h4><p>Introduces the MediStock brand before loading the local pharmacy workspace.</p></div></article>
+            <article class="screen-card"><div class="screen-frame"><img src="images/screen-03-inventory.jpeg" alt="MediStock inventory intake screen" /></div><div><span class="screen-number">Screen 03</span><h4>Inventory Intake</h4><p>Tracks supplier purchases, drafts, received value and completed stock intake records.</p></div></article>
+            <article class="screen-card"><div class="screen-frame"><img src="images/screen-04-stock.jpeg" alt="MediStock stock monitoring screen" /></div><div><span class="screen-number">Screen 04</span><h4>Stock Monitoring</h4><p>Searches medicine batches across branches while highlighting availability, price and expiry.</p></div></article>
+            <article class="screen-card"><div class="screen-frame"><img src="images/screen-05-sales.jpeg" alt="MediStock sales billing screen" /></div><div><span class="screen-number">Screen 05</span><h4>Sales Billing</h4><p>Captures patient details, payment method, discounts, tax and bill items in one flow.</p></div></article>
+            <article class="screen-card"><div class="screen-frame"><img src="images/screen-06-tools.jpeg" alt="MediStock tools screen" /></div><div><span class="screen-number">Screen 06</span><h4>Operations Tools</h4><p>Groups reports, support, orders, branches and staff access from the More menu.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-study section" id="motostock">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">Moto Stock</p>
+            <h2>Dealership ERP for stock, invoices, stores and sales flow</h2>
+            <p>Moto Stock is a showroom-focused mobile ERP concept for managing incoming bikes, customer invoices, outgoing sales and store-level visibility.</p>
+          </div>
+          <img src="images/motostock-logo.jpg" alt="Moto Stock showroom identity image with motorcycles" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Showroom visibility</h4><p>Dealership teams need a clear view of stock, sales and performance across multiple store locations.</p></article>
+            <article class="info-card"><span>02</span><h4>Stock movement</h4><p>Incoming bike inventory and outgoing sales need to stay connected through one workflow.</p></article>
+            <article class="info-card"><span>03</span><h4>Invoice tracking</h4><p>Sales teams need quick access to customer invoices, paid status, revenue and outstanding amounts.</p></article>
+            <article class="info-card"><span>04</span><h4>Store operations</h4><p>Branch locations, staff count and bike counts need simple operational visibility.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>Connected dealership workspace</h4><p>Overview, Sales In, Bill, Sales Out and Stores screens create a clear operating path.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>Bike stock intake</h4><p>Sales In lists available bikes by showroom, category and stock status with intake access.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>Invoice workflow</h4><p>The billing screen captures vehicle sale details, customer data and supporting customer photo input.</p></article>
+            <article class="info-card solution-card"><span>04</span><h4>Store-level management</h4><p>The Stores screen groups showroom locations, staff and bike counts into one navigable list.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>Mobile ERP UI</span>
+            <span>Dashboard Analytics</span>
+            <span>Inventory Flow</span>
+            <span>Invoice Workflow</span>
+            <span>Multi-store Management</span>
+            <span>Notification UI</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen moto-feature">
+            <div class="screen-frame large dark-phone">
+              <img src="images/moto-screen-02-overview.jpeg" alt="Moto Stock overview screen showing revenue, stock, bikes sold and outstanding values" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Dealership Overview</h4>
+              <p>Summarizes revenue, stock, bikes sold, outstanding amounts and recent weekly performance.</p>
+            </div>
+          </article>
+          <div class="screen-bento">
+            <article class="screen-card moto-card"><div class="screen-frame dark-phone"><img src="images/moto-screen-01-welcome.jpeg" alt="Moto Stock welcome screen" /></div><div><span class="screen-number">Screen 02</span><h4>Welcome Screen</h4><p>Introduces the showroom ERP as one connected place for dealership work.</p></div></article>
+            <article class="screen-card moto-card"><div class="screen-frame dark-phone"><img src="images/moto-screen-03-sales-in.jpeg" alt="Moto Stock sales in screen" /></div><div><span class="screen-number">Screen 03</span><h4>Sales In</h4><p>Lists incoming bike stock by showroom, category and availability with intake access.</p></div></article>
+            <article class="screen-card moto-card"><div class="screen-frame dark-phone"><img src="images/moto-screen-04-invoice.jpeg" alt="Moto Stock new invoice screen" /></div><div><span class="screen-number">Screen 04</span><h4>New Invoice</h4><p>Captures vehicle sale details, customer information and supporting customer photo input.</p></div></article>
+            <article class="screen-card moto-card"><div class="screen-frame dark-phone"><img src="images/moto-screen-05-sales-out.jpeg" alt="Moto Stock sales out screen" /></div><div><span class="screen-number">Screen 05</span><h4>Sales Out</h4><p>Tracks invoices, revenue, outstanding payments and filtered outgoing sales records.</p></div></article>
+            <article class="screen-card moto-card"><div class="screen-frame dark-phone"><img src="images/moto-screen-06-stores.jpeg" alt="Moto Stock stores screen" /></div><div><span class="screen-number">Screen 06</span><h4>Stores</h4><p>Shows branch locations, staff count and bike availability across dealership showrooms.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-study section" id="glamora">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">Glamora</p>
+            <h2>Salon management application for appointments, clients and daily operations</h2>
+            <p>Glamora is a smart salon management POC that brings appointment scheduling, client records, services, payments, inventory and admin operations into one mobile workflow.</p>
+          </div>
+          <img src="images/glamora-logo.png" alt="Glamora salon interior identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">POC Description</p>
+          <h3>Smart salon operations at a glance</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Unified admin dashboard</h4><p>Admins can monitor appointments, revenue, pending payments, clients, VIP clients and daily salon activity.</p></article>
+            <article class="info-card"><span>02</span><h4>Salon workflow coverage</h4><p>The POC covers appointments, clients, services, employees, payments, reports, inventory and studio settings.</p></article>
+            <article class="info-card"><span>03</span><h4>Customer relationship focus</h4><p>Client records track contact details, visit counts, loyalty XP, VIP status and service context.</p></article>
+            <article class="info-card"><span>04</span><h4>Prototype foundation</h4><p>The current prototype uses Flutter and Dart with local persistence for demonstrated app flows.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">Logo</p>
+          <h3>Glamora visual identity</h3>
+          <article class="logo-showcase">
+            <img src="images/glamora-logo.png" alt="Glamora salon logo and visual identity" />
+            <div>
+              <h4>Warm premium salon atmosphere</h4>
+              <p>The supplied logo image gives Glamora a refined salon environment: warm lighting, mirrors, styling chairs and a service-focused studio mood that matches the app screens.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Uncertain availability</h4><p>Customers may face waiting time and unclear service availability without structured appointment booking.</p></article>
+            <article class="info-card"><span>02</span><h4>Repeated client context</h4><p>Salon teams often need to repeatedly collect preferences, service history and client details.</p></article>
+            <article class="info-card"><span>03</span><h4>Manual admin work</h4><p>Appointments, employees, payments, service catalogues and inventory can become scattered across manual processes.</p></article>
+            <article class="info-card"><span>04</span><h4>Limited daily visibility</h4><p>Owners need quick visibility into appointments, revenue, pending payments, clients and VIP activity.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>Appointment scheduling</h4><p>Glamora supports appointment search, status review, service details, employee assignment and booking creation.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>Structured client records</h4><p>Client profiles maintain phone numbers, visits, loyalty XP, VIP status and add-client workflows.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>Service catalogue</h4><p>Services are grouped by category with price, duration and capable-employee information.</p></article>
+            <article class="info-card solution-card"><span>04</span><h4>Operations hub</h4><p>Employees, service management, payments, revenue, reports, inventory and studio settings are grouped in one admin area.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>Flutter</span>
+            <span>Dart</span>
+            <span>Material UI</span>
+            <span>Google Fonts</span>
+            <span>Local Persistence</span>
+            <span>shared_preferences</span>
+            <span>Razorpay Planning</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen glamora-feature">
+            <div class="screen-frame large glamora-phone">
+              <img src="images/glamora-screen-01-overview.jpeg" alt="Glamora admin overview dashboard showing appointments, revenue, payments, clients and quick actions" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Admin Overview</h4>
+              <p>Shows daily appointments, revenue, pending payments, clients, VIP clients and quick admin actions.</p>
+            </div>
+          </article>
+          <div class="screen-bento">
+            <article class="screen-card glamora-card"><div class="screen-frame glamora-phone"><img src="images/glamora-screen-02-appointments.jpeg" alt="Glamora appointments screen" /></div><div><span class="screen-number">Screen 02</span><h4>Appointments</h4><p>Searches visits, filters schedule status and creates salon appointments.</p></div></article>
+            <article class="screen-card glamora-card"><div class="screen-frame glamora-phone"><img src="images/glamora-screen-03-clients.jpeg" alt="Glamora clients screen" /></div><div><span class="screen-number">Screen 03</span><h4>Clients</h4><p>Maintains client contact details, visit count, loyalty XP and VIP status.</p></div></article>
+            <article class="screen-card glamora-card"><div class="screen-frame glamora-phone"><img src="images/glamora-screen-04-services.jpeg" alt="Glamora services catalogue screen" /></div><div><span class="screen-number">Screen 04</span><h4>Services</h4><p>Lists salon services by category with price, duration and employee capability.</p></div></article>
+            <article class="screen-card glamora-card"><div class="screen-frame glamora-phone"><img src="images/glamora-screen-05-operations.jpeg" alt="Glamora operations hub screen" /></div><div><span class="screen-number">Screen 05</span><h4>Operations Hub</h4><p>Groups employees, service management, finance, reports, inventory and studio settings.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-study section" id="dc-college">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">DC College</p>
+            <h2>College website POC for admissions, courses, placements and enquiries</h2>
+            <p>DC College is a web experience that guides visitors through the institution, courses, admissions, placements and contact paths.</p>
+          </div>
+          <img src="images/dc-imports-exports-icon.jpg" alt="DC College education growth identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Scattered admissions information</h4><p>Prospective students need course, admission and enquiry information without moving through disconnected channels.</p></article>
+            <article class="info-card"><span>02</span><h4>Weak first impression</h4><p>A college website must quickly communicate credibility, campus life and academic value to new visitors.</p></article>
+            <article class="info-card"><span>03</span><h4>Placement clarity</h4><p>Students and parents need visible placement outcomes, partner information and career support details.</p></article>
+            <article class="info-card"><span>04</span><h4>Contact friction</h4><p>Admissions enquiries, campus visits, WhatsApp, email and directions need clear paths from the website.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>Focused college landing page</h4><p>The home screen presents DC College with a strong hero, course exploration and enquiry actions.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>Structured page navigation</h4><p>About, Courses, Admission, Placements, Life at DC and Contact are kept visible in the main navigation.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>Admissions guidance</h4><p>The admission screen frames the journey with course discovery, application steps and enquiry support.</p></article>
+            <article class="info-card solution-card"><span>04</span><h4>Placement and contact proof</h4><p>Placement metrics, recruiting partners and direct contact cards help visitors evaluate next steps.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Responsive Web UI</span>
+            <span>Landing Page Design</span>
+            <span>Navigation Sections</span>
+            <span>Enquiry Flow</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/dc-screen-01-home.jpeg" alt="DC College home screen with campus hero and enquiry actions" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Home</h4>
+              <p>Introduces DC College with a campus hero, course exploration, enquiry CTA and social contact shortcuts.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/dc-screen-02-about.jpeg" alt="DC College about screen with library hero" /><div><span class="screen-number">Screen 02</span><h4>About</h4><p>Communicates the college story through a strong academic visual and institutional positioning.</p></div></article>
+            <article class="landscape-card"><img src="images/dc-screen-03-admission.jpeg" alt="DC College admission guidance screen" /><div><span class="screen-number">Screen 03</span><h4>Admission</h4><p>Guides visitors from course discovery toward application steps and admissions support.</p></div></article>
+            <article class="landscape-card"><img src="images/dc-screen-04-placements.jpeg" alt="DC College placements screen with metrics and recruiting partners" /><div><span class="screen-number">Screen 04</span><h4>Placements</h4><p>Highlights career outcomes, placement assistance, package metrics and recruiting partners.</p></div></article>
+            <article class="landscape-card"><img src="images/dc-screen-05-contact.jpeg" alt="DC College contact screen with enquiry and contact cards" /><div><span class="screen-number">Screen 05</span><h4>Contact</h4><p>Turns admissions interest into action with enquiry, visit, phone, email, WhatsApp and directions options.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="dc-imports-exports">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">DC Imports & Exports</p>
+            <h2>International trade website POC for logistics, services, facility, careers and media</h2>
+            <p>DC Imports & Exports is a corporate website concept for presenting import, export, logistics, sourcing and trade coordination services with a polished global trade presence.</p>
+          </div>
+          <img src="images/imports-exports-logo.jpg" alt="DC Imports and Exports apparel export and port logistics identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Unclear trade positioning</h4><p>Import-export businesses need a focused website that clearly explains services, sectors and trade coordination value.</p></article>
+            <article class="info-card"><span>02</span><h4>Service discovery friction</h4><p>Visitors need quick access to services, facility information, careers, media resources and contact options.</p></article>
+            <article class="info-card"><span>03</span><h4>Trust and credibility gap</h4><p>Global trade conversations require a professional presence before detailed company proof and verified documents are shared.</p></article>
+            <article class="info-card"><span>04</span><h4>Content readiness</h4><p>Company history, facility details, media assets and certifications need organized sections that can accept approved content later.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>Corporate trade landing page</h4><p>The home screen introduces the company with port imagery, service CTAs and a polished global trade message.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>Structured company sections</h4><p>About, Services, Facility, Careers, Media and Contact organize the website into clear visitor paths.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>Facility and media readiness</h4><p>Dedicated facility and media pages provide space for logistics workflows, photos, videos, press, brochures and certificates.</p></article>
+            <article class="info-card solution-card"><span>04</span><h4>Conversion-focused contact routes</h4><p>Contact and service actions keep enquiry paths visible for trade conversations and business follow-up.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Responsive Web UI</span>
+            <span>Corporate Website Design</span>
+            <span>Landing Page Sections</span>
+            <span>Media Resource Layout</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/imports-exports-screen-01-home.jpeg" alt="DC Imports and Exports home screen with shipping hero and service actions" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Home</h4>
+              <p>Introduces international trade coordination with service exploration and contact actions.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/imports-exports-screen-02-about.jpeg" alt="DC Imports and Exports about screen" /><div><span class="screen-number">Screen 02</span><h4>About</h4><p>Frames the company foundation for international trade and approved corporate information.</p></div></article>
+            <article class="landscape-card"><img src="images/imports-exports-screen-03-facility.jpeg" alt="DC Imports and Exports facility screen" /><div><span class="screen-number">Screen 03</span><h4>Facility</h4><p>Shows a facility overview for logistics support, storage coordination and shipment workflows.</p></div></article>
+            <article class="landscape-card"><img src="images/imports-exports-screen-04-careers.jpeg" alt="DC Imports and Exports careers screen" /><div><span class="screen-number">Screen 04</span><h4>Careers</h4><p>Presents trade coordination career opportunities and contact paths for applicants.</p></div></article>
+            <article class="landscape-card"><img src="images/imports-exports-screen-05-media.jpeg" alt="DC Imports and Exports media resources screen" /><div><span class="screen-number">Screen 05</span><h4>Media</h4><p>Organizes photos, videos, press, brochures and certificates for approved company content.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="dc-realestate">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">DC Real Estate</p>
+            <h2>Godha Towers website POC for residential living, project discovery and enquiries</h2>
+            <p>Godha Towers is presented as a residential real estate web experience for Yendada, Vizag, focused on homes, community, shared spaces and project enquiries.</p>
+          </div>
+          <img src="images/dc-realestate-icon.jpg" alt="DC Real Estate skyline and home identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Project discovery clarity</h4><p>Home buyers need a clear first impression of the residential address, location and project promise.</p></article>
+            <article class="info-card"><span>02</span><h4>Community positioning</h4><p>The project needs to communicate homes, shared spaces and everyday living as one cohesive residential story.</p></article>
+            <article class="info-card"><span>03</span><h4>Project detail visibility</h4><p>Visitors need quick access to tower count, floors, area scale and the broader project identity.</p></article>
+            <article class="info-card"><span>04</span><h4>Enquiry friction</h4><p>Potential buyers need a clear path to ask for current plans, pricing and availability information.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>Elegant landing experience</h4><p>The home screen introduces Godha Towers with a calm residential message and a quote action.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>Community-led narrative</h4><p>The about screen frames a home as the beginning and community as the continuing value.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>Project-at-a-glance section</h4><p>The project page highlights six towers, seventeen floors and more than fifty thousand square feet across clubhouses.</p></article>
+            <article class="info-card solution-card"><span>04</span><h4>Direct contact pathway</h4><p>The contact screen guides visitors toward project information, mobile and email enquiry options.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Responsive Web UI</span>
+            <span>Real Estate Landing Page</span>
+            <span>Project Showcase</span>
+            <span>Contact Enquiry Flow</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature realestate-feature">
+            <div class="landscape-frame realestate-frame">
+              <img src="images/realestate-screen-01-home.jpeg" alt="Godha Towers home screen with residential hero and quote action" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Home</h4>
+              <p>Introduces Godha Towers with the horizon message, location cue and residence discovery action.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card realestate-card"><img src="images/realestate-screen-02-about.jpeg" alt="Godha Towers about screen" /><div><span class="screen-number">Screen 02</span><h4>About</h4><p>Frames home as the beginning and community as the long-term value after move-in.</p></div></article>
+            <article class="landscape-card realestate-card"><img src="images/realestate-screen-03-project.jpeg" alt="Godha Towers project details screen" /><div><span class="screen-number">Screen 03</span><h4>Project</h4><p>Shows six towers, shared horizon messaging and project-at-a-glance residential details.</p></div></article>
+            <article class="landscape-card realestate-card"><img src="images/realestate-screen-04-process.jpeg" alt="Godha Towers process screen" /><div><span class="screen-number">Screen 04</span><h4>Process</h4><p>Explains the project thinking from vision to architecture, gathering spaces and belonging.</p></div></article>
+            <article class="landscape-card realestate-card"><img src="images/realestate-screen-05-lifestyle.jpeg" alt="Godha Towers lifestyle screen" /><div><span class="screen-number">Screen 05</span><h4>Lifestyle</h4><p>Presents community, wellbeing and living details through residence-focused story cards.</p></div></article>
+            <article class="landscape-card realestate-card"><img src="images/realestate-screen-06-contact.jpeg" alt="Godha Towers contact screen" /><div><span class="screen-number">Screen 06</span><h4>Contact</h4><p>Converts project interest into direct contact for plans, pricing and availability.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="ganesh-constructions">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">Ganesh Constructions</p>
+            <h2>Construction website POC for operations, customer data and service tracking</h2>
+            <p>Ganesh Constructions is a business website concept focused on reducing manual work, centralizing operational data and improving customer service visibility.</p>
+          </div>
+          <img src="images/ganesh-constructions-icon.jpg" alt="Ganesh Constructions POC identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Businesses rely on manual data entry, spreadsheets and repetitive tasks, leading to delays and errors</h4><p>Businesses rely on manual data entry, spreadsheets and repetitive tasks, leading to delays and errors.</p></article>
+            <article class="info-card"><span>02</span><h4>Customer information, sales, payments, documents and operational data are stored across different systems, making it difficult to manage</h4><p>Customer information, sales, payments, documents and operational data are stored across different systems, making it difficult to manage.</p></article>
+            <article class="info-card"><span>03</span><h4>Customers often have to contact businesses repeatedly to check order status, payments, documents or service updates</h4><p>Customers often have to contact businesses repeatedly to check order status, payments, documents or service updates.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>Automated workflows, data management, approvals, notifications and routine operations improve efficiency and reduce manual work</h4><p>Automated workflows, data management, approvals, notifications and routine operations improve efficiency and reduce manual work.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>Business operations, customer data, documents, reports and transactions are handled in one secure platform with a unified dashboard</h4><p>Business operations, customer data, documents, reports and transactions are handled in one secure platform with a unified dashboard.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>Customers get a secure portal where they can track services, payments, documents, requests and real-time updates from anywhere</h4><p>Customers get a secure portal where they can track services, payments, documents, requests and real-time updates from anywhere.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>MP4 Video</span>
+            <span>PNG</span>
+            <span>JPG</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/ganesh-constructions-screen-01.png" alt="Ganesh Constructions primary screen" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Primary Screen</h4>
+              <p>Opening screen provided for the Ganesh Constructions proof of concept.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/ganesh-constructions-screen-02.png" alt="Ganesh Constructions screen 2" /><div><span class="screen-number">Screen 02</span><h4>Screen 02</h4><p>Provided product screen for the Ganesh Constructions proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/ganesh-constructions-screen-03.png" alt="Ganesh Constructions screen 3" /><div><span class="screen-number">Screen 03</span><h4>Screen 03</h4><p>Provided product screen for the Ganesh Constructions proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/ganesh-constructions-screen-04.png" alt="Ganesh Constructions screen 4" /><div><span class="screen-number">Screen 04</span><h4>Screen 04</h4><p>Provided product screen for the Ganesh Constructions proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/ganesh-constructions-screen-05.png" alt="Ganesh Constructions screen 5" /><div><span class="screen-number">Screen 05</span><h4>Screen 05</h4><p>Provided product screen for the Ganesh Constructions proof of concept.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="dc-radiants">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">DC Radiants</p>
+            <h2>Jewellery website POC for secure diamond inventory and digital product exploration</h2>
+            <p>DC Radiants is a jewellery platform concept for inventory, customer management, billing, orders and guided product exploration.</p>
+          </div>
+          <img src="images/dc-radiants-icon.jpg" alt="DC Radiants POC identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Businesses handle sensitive customer information, purchase records, transactions and valuable inventory that require strong security</h4><p>Businesses handle sensitive customer information, purchase records, transactions and valuable inventory that require strong security.</p></article>
+            <article class="info-card"><span>02</span><h4>Managing diamond inventory, customer details, orders, billing and sales through separate or outdated systems makes operations difficult to track</h4><p>Managing diamond inventory, customer details, orders, billing and sales through separate or outdated systems makes operations difficult to track.</p></article>
+            <article class="info-card"><span>03</span><h4>Customers cannot easily explore detailed diamond information, compare products, visualize jewellery or receive personalized recommendations before purchase</h4><p>Customers cannot easily explore detailed diamond information, compare products, visualize jewellery or receive personalized recommendations before purchase.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>Secure authentication, role-based access, encrypted data, backups and monitoring protect customer and business information</h4><p>Secure authentication, role-based access, encrypted data, backups and monitoring protect customer and business information.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>Inventory, customer management, sales, billing, orders and reporting are connected in one digital platform</h4><p>Inventory, customer management, sales, billing, orders and reporting are connected in one digital platform.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>Customers can explore diamonds and jewellery, view specifications, compare products, receive recommendations and request consultations digitally</h4><p>Customers can explore diamonds and jewellery, view specifications, compare products, receive recommendations and request consultations digitally.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>TanStack Start</span>
+            <span>TanStack Router</span>
+            <span>Vite</span>
+            <span>Tailwind CSS</span>
+            <span>Framer Motion</span>
+            <span>GSAP</span>
+            <span>Radix UI</span>
+            <span>React Hook Form</span>
+            <span>Zod</span>
+            <span>Recharts</span>
+            <span>Swiper</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/dc-radiants-screen-01.png" alt="DC Radiants primary screen" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Primary Screen</h4>
+              <p>Opening screen provided for the DC Radiants proof of concept.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/dc-radiants-screen-02.png" alt="DC Radiants screen 2" /><div><span class="screen-number">Screen 02</span><h4>Screen 02</h4><p>Provided product screen for the DC Radiants proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/dc-radiants-screen-03.png" alt="DC Radiants screen 3" /><div><span class="screen-number">Screen 03</span><h4>Screen 03</h4><p>Provided product screen for the DC Radiants proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/dc-radiants-screen-04.png" alt="DC Radiants screen 4" /><div><span class="screen-number">Screen 04</span><h4>Screen 04</h4><p>Provided product screen for the DC Radiants proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/dc-radiants-screen-05.png" alt="DC Radiants screen 5" /><div><span class="screen-number">Screen 05</span><h4>Screen 05</h4><p>Provided product screen for the DC Radiants proof of concept.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="physiotherapy">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">Physiotherapy</p>
+            <h2>Physiotherapy website POC for operations, schedules and performance visibility</h2>
+            <p>Physiotherapy is a healthcare business platform concept for centralizing information, task workflows and operational visibility.</p>
+          </div>
+          <img src="images/physiotherapy-icon.jpg" alt="Physiotherapy POC identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Managing business data, customer information and operations across different systems is time-consuming</h4><p>Managing business data, customer information and operations across different systems is time-consuming.</p></article>
+            <article class="info-card"><span>02</span><h4>Manual follow-ups, task management and communication can cause delays and missed opportunities</h4><p>Manual follow-ups, task management and communication can cause delays and missed opportunities.</p></article>
+            <article class="info-card"><span>03</span><h4>Limited visibility into projects, employee performance and business operations makes decision-making difficult</h4><p>Limited visibility into projects, employee performance and business operations makes decision-making difficult.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>Centralized data enables companies to store information, customer data, documents and day-to-day operations in one place</h4><p>Centralized data enables companies to store information, customer data, documents and day-to-day operations in one place.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>Task, schedule, reminder and alert management is simplified to increase work efficiency</h4><p>Task, schedule, reminder and alert management is simplified to increase work efficiency.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>Users get real-time access to projects, worker progress, business performance and other crucial data</h4><p>Users get real-time access to projects, worker progress, business performance and other crucial data.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>Vite</span>
+            <span>JavaScript</span>
+            <span>GSAP</span>
+            <span>Barlow Font</span>
+            <span>Playwright</span>
+            <span>Sharp</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/physiotherapy-screen-01.png" alt="Physiotherapy primary screen" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Primary Screen</h4>
+              <p>Opening screen provided for the Physiotherapy proof of concept.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/physiotherapy-screen-02.png" alt="Physiotherapy screen 2" /><div><span class="screen-number">Screen 02</span><h4>Screen 02</h4><p>Provided product screen for the Physiotherapy proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/physiotherapy-screen-03.png" alt="Physiotherapy screen 3" /><div><span class="screen-number">Screen 03</span><h4>Screen 03</h4><p>Provided product screen for the Physiotherapy proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/physiotherapy-screen-04.png" alt="Physiotherapy screen 4" /><div><span class="screen-number">Screen 04</span><h4>Screen 04</h4><p>Provided product screen for the Physiotherapy proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/physiotherapy-screen-05.png" alt="Physiotherapy screen 5" /><div><span class="screen-number">Screen 05</span><h4>Screen 05</h4><p>Provided product screen for the Physiotherapy proof of concept.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="ss-dental">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">SS Dental</p>
+            <h2>Dental website POC for patient records, appointments and healthcare visibility</h2>
+            <p>SS Dental is a healthcare website concept for treatment records, appointment workflows and operational tracking.</p>
+          </div>
+          <img src="images/ss-dental-icon.jpg" alt="SS Dental POC identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Patient records and treatment details are difficult to manage efficiently</h4><p>Patient records and treatment details are difficult to manage efficiently.</p></article>
+            <article class="info-card"><span>02</span><h4>Manual appointment scheduling can lead to delays and missed follow-ups</h4><p>Manual appointment scheduling can lead to delays and missed follow-ups.</p></article>
+            <article class="info-card"><span>03</span><h4>Limited visibility into patient progress and hospital operations affects efficiency</h4><p>Limited visibility into patient progress and hospital operations affects efficiency.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>An integrated Patient Management System centralizes patient records, treatments and diagnostic reports</h4><p>An integrated Patient Management System centralizes patient records, treatments and diagnostic reports.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>A Smart Appointment System manages bookings, schedules, reminders and notifications</h4><p>A Smart Appointment System manages bookings, schedules, reminders and notifications.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>A Real-Time Healthcare Dashboard tracks patient progress, appointments and hospital operations</h4><p>A Real-Time Healthcare Dashboard tracks patient progress, appointments and hospital operations.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>TanStack Start</span>
+            <span>TanStack Router</span>
+            <span>Vite</span>
+            <span>Tailwind CSS</span>
+            <span>Radix UI</span>
+            <span>Framer Motion</span>
+            <span>React Hook Form</span>
+            <span>Zod</span>
+            <span>Recharts</span>
+            <span>Lucide React</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/ss-dental-screen-01.png" alt="SS Dental primary screen" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Primary Screen</h4>
+              <p>Opening screen provided for the SS Dental proof of concept.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/ss-dental-screen-02.png" alt="SS Dental screen 2" /><div><span class="screen-number">Screen 02</span><h4>Screen 02</h4><p>Provided product screen for the SS Dental proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/ss-dental-screen-03.png" alt="SS Dental screen 3" /><div><span class="screen-number">Screen 03</span><h4>Screen 03</h4><p>Provided product screen for the SS Dental proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/ss-dental-screen-04.png" alt="SS Dental screen 4" /><div><span class="screen-number">Screen 04</span><h4>Screen 04</h4><p>Provided product screen for the SS Dental proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/ss-dental-screen-05.png" alt="SS Dental screen 5" /><div><span class="screen-number">Screen 05</span><h4>Screen 05</h4><p>Provided product screen for the SS Dental proof of concept.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="sri-venkateswara-constructions">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">Sri Venkateswara Constructions</p>
+            <h2>Construction website POC for projects, tracking and customer visibility</h2>
+            <p>Sri Venkateswara Constructions is a construction management concept for projects, documents, budgets and customer progress updates.</p>
+          </div>
+          <img src="images/sri-venkateswara-constructions-icon.jpg" alt="Sri Venkateswara Constructions POC identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Managing project details, customer information and construction documents across different processes can be difficult</h4><p>Managing project details, customer information and construction documents across different processes can be difficult.</p></article>
+            <article class="info-card"><span>02</span><h4>Manual tracking of project stages, budgets and construction activities can cause delays and communication gaps</h4><p>Manual tracking of project stages, budgets and construction activities can cause delays and communication gaps.</p></article>
+            <article class="info-card"><span>03</span><h4>Customers have limited real-time visibility into project progress, updates and completion status</h4><p>Customers have limited real-time visibility into project progress, updates and completion status.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>An integrated Construction Management System centralizes projects, customers, documents, budgets and construction activities</h4><p>An integrated Construction Management System centralizes projects, customers, documents, budgets and construction activities.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>A Real-Time Project Tracking System monitors planning, design, estimation, construction, quality checks and handover</h4><p>A Real-Time Project Tracking System monitors planning, design, estimation, construction, quality checks and handover.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>A Customer Portal provides project updates, progress tracking, documents and communication in one platform</h4><p>A Customer Portal provides project updates, progress tracking, documents and communication in one platform.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>TanStack Start</span>
+            <span>TanStack Router</span>
+            <span>Vite</span>
+            <span>Tailwind CSS</span>
+            <span>Three.js</span>
+            <span>React Three Fiber</span>
+            <span>Motion</span>
+            <span>Radix UI</span>
+            <span>Zod</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/sri-venkateswara-constructions-screen-01.png" alt="Sri Venkateswara Constructions primary screen" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Primary Screen</h4>
+              <p>Opening screen provided for the Sri Venkateswara Constructions proof of concept.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/sri-venkateswara-constructions-screen-02.png" alt="Sri Venkateswara Constructions screen 2" /><div><span class="screen-number">Screen 02</span><h4>Screen 02</h4><p>Provided product screen for the Sri Venkateswara Constructions proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sri-venkateswara-constructions-screen-03.png" alt="Sri Venkateswara Constructions screen 3" /><div><span class="screen-number">Screen 03</span><h4>Screen 03</h4><p>Provided product screen for the Sri Venkateswara Constructions proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sri-venkateswara-constructions-screen-04.png" alt="Sri Venkateswara Constructions screen 4" /><div><span class="screen-number">Screen 04</span><h4>Screen 04</h4><p>Provided product screen for the Sri Venkateswara Constructions proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sri-venkateswara-constructions-screen-05.png" alt="Sri Venkateswara Constructions screen 5" /><div><span class="screen-number">Screen 05</span><h4>Screen 05</h4><p>Provided product screen for the Sri Venkateswara Constructions proof of concept.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="lumina">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">Lumina</p>
+            <h2>Hotel website POC for bookings, guest services and operations visibility</h2>
+            <p>Lumina is a hotel management concept for bookings, guest information, room availability and service coordination.</p>
+          </div>
+          <img src="images/lumina-icon.jpg" alt="Lumina POC identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Fragmented management of bookings, guest information, room availability and hotel services reduces operational efficiency</h4><p>Fragmented management of bookings, guest information, room availability and hotel services reduces operational efficiency.</p></article>
+            <article class="info-card"><span>02</span><h4>Manual handling of guest requests and service coordination causes delays and communication gaps</h4><p>Manual handling of guest requests and service coordination causes delays and communication gaps.</p></article>
+            <article class="info-card"><span>03</span><h4>Limited real-time visibility into hotel operations makes it difficult to monitor service performance and guest activity</h4><p>Limited real-time visibility into hotel operations makes it difficult to monitor service performance and guest activity.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>An Integrated Hotel Management System centralizes bookings, guest data, room availability and hotel operations</h4><p>An Integrated Hotel Management System centralizes bookings, guest data, room availability and hotel operations.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>A Smart Guest Service System automates service requests, notifications and communication</h4><p>A Smart Guest Service System automates service requests, notifications and communication.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>A Real-Time Operations Dashboard monitors room status, guest activity, service requests and overall performance</h4><p>A Real-Time Operations Dashboard monitors room status, guest activity, service requests and overall performance.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>TanStack Start</span>
+            <span>TanStack Router</span>
+            <span>Vite</span>
+            <span>Tailwind CSS</span>
+            <span>Radix UI</span>
+            <span>Motion</span>
+            <span>Lenis</span>
+            <span>React Hook Form</span>
+            <span>Zod</span>
+            <span>Recharts</span>
+            <span>Lucide React</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/lumina-screen-01.png" alt="Lumina primary screen" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Primary Screen</h4>
+              <p>Opening screen provided for the Lumina proof of concept.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/lumina-screen-02.png" alt="Lumina screen 2" /><div><span class="screen-number">Screen 02</span><h4>Screen 02</h4><p>Provided product screen for the Lumina proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/lumina-screen-03.png" alt="Lumina screen 3" /><div><span class="screen-number">Screen 03</span><h4>Screen 03</h4><p>Provided product screen for the Lumina proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/lumina-screen-04.png" alt="Lumina screen 4" /><div><span class="screen-number">Screen 04</span><h4>Screen 04</h4><p>Provided product screen for the Lumina proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/lumina-screen-05.png" alt="Lumina screen 5" /><div><span class="screen-number">Screen 05</span><h4>Screen 05</h4><p>Provided product screen for the Lumina proof of concept.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="sanjeevi-hospitals">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">Sanjeevi Hospitals</p>
+            <h2>Hospital website POC for unified patient care and analytics</h2>
+            <p>Sanjeevi Hospitals is a digital health platform concept for patient records, appointments, departments and operational analytics.</p>
+          </div>
+          <img src="images/sanjeevi-hospitals-icon.jpg" alt="Sanjeevi Hospitals POC identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Patient information was scattered across different records, making it difficult to access complete medical history quickly</h4><p>Patient information was scattered across different records, making it difficult to access complete medical history quickly.</p></article>
+            <article class="info-card"><span>02</span><h4>Lack of coordinated digital workflows between patients, doctors, appointments and departments created operational delays</h4><p>Lack of coordinated digital workflows between patients, doctors, appointments and departments created operational delays.</p></article>
+            <article class="info-card"><span>03</span><h4>Limited visibility into patient care activities and healthcare operations made real-time monitoring and decision-making difficult</h4><p>Limited visibility into patient care activities and healthcare operations made real-time monitoring and decision-making difficult.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>A Unified Digital Health Platform centralizes patient profiles, medical history, reports and treatment information</h4><p>A Unified Digital Health Platform centralizes patient profiles, medical history, reports and treatment information.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>An Integrated Healthcare Workflow System connects patients, doctors, appointments and departments through a single platform</h4><p>An Integrated Healthcare Workflow System connects patients, doctors, appointments and departments through a single platform.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>A Real-Time Healthcare Analytics Dashboard monitors patient care, appointments, department activity and operational performance</h4><p>A Real-Time Healthcare Analytics Dashboard monitors patient care, appointments, department activity and operational performance.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>TanStack Start</span>
+            <span>TanStack Router</span>
+            <span>Vite</span>
+            <span>Tailwind CSS</span>
+            <span>Radix UI</span>
+            <span>React Hook Form</span>
+            <span>Zod</span>
+            <span>Framer Motion</span>
+            <span>Recharts</span>
+            <span>Lucide React</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/sanjeevi-hospitals-screen-01.png" alt="Sanjeevi Hospitals primary screen" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Primary Screen</h4>
+              <p>Opening screen provided for the Sanjeevi Hospitals proof of concept.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/sanjeevi-hospitals-screen-02.png" alt="Sanjeevi Hospitals screen 2" /><div><span class="screen-number">Screen 02</span><h4>Screen 02</h4><p>Provided product screen for the Sanjeevi Hospitals proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sanjeevi-hospitals-screen-03.png" alt="Sanjeevi Hospitals screen 3" /><div><span class="screen-number">Screen 03</span><h4>Screen 03</h4><p>Provided product screen for the Sanjeevi Hospitals proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sanjeevi-hospitals-screen-04.png" alt="Sanjeevi Hospitals screen 4" /><div><span class="screen-number">Screen 04</span><h4>Screen 04</h4><p>Provided product screen for the Sanjeevi Hospitals proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sanjeevi-hospitals-screen-05.png" alt="Sanjeevi Hospitals screen 5" /><div><span class="screen-number">Screen 05</span><h4>Screen 05</h4><p>Provided product screen for the Sanjeevi Hospitals proof of concept.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="dc-interiors">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">DC Interiors</p>
+            <h2>Interior design website POC for client requirements, materials and project visibility</h2>
+            <p>DC Interiors is a studio platform concept for managing design concepts, approvals, materials and execution progress.</p>
+          </div>
+          <img src="images/dc-interiors-icon.jpg" alt="DC Interiors POC identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Design concepts, client requirements, material selections and project data were difficult to manage through disconnected processes</h4><p>Design concepts, client requirements, material selections and project data were difficult to manage through disconnected processes.</p></article>
+            <article class="info-card"><span>02</span><h4>Coordination between designers, vendors and site teams created workflow gaps and project delays</h4><p>Coordination between designers, vendors and site teams created workflow gaps and project delays.</p></article>
+            <article class="info-card"><span>03</span><h4>Clients lacked a centralized way to track design approvals, project milestones and execution progress</h4><p>Clients lacked a centralized way to track design approvals, project milestones and execution progress.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>A Digital Design Intelligence Hub manages client requirements, concepts, materials, approvals and project data in one system</h4><p>A Digital Design Intelligence Hub manages client requirements, concepts, materials, approvals and project data in one system.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>A Connected Project Collaboration Engine streamlines communication between designers, vendors and site teams</h4><p>A Connected Project Collaboration Engine streamlines communication between designers, vendors and site teams.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>An Interactive Project Visibility Portal provides milestone updates, approval tracking, design revisions and execution progress</h4><p>An Interactive Project Visibility Portal provides milestone updates, approval tracking, design revisions and execution progress.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>TanStack Start</span>
+            <span>TanStack Router</span>
+            <span>Vite</span>
+            <span>Tailwind CSS</span>
+            <span>Radix UI</span>
+            <span>React Hook Form</span>
+            <span>Zod</span>
+            <span>Motion</span>
+            <span>Lucide React</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/dc-interiors-screen-01.png" alt="DC Interiors primary screen" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Primary Screen</h4>
+              <p>Opening screen provided for the DC Interiors proof of concept.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/dc-interiors-screen-02.png" alt="DC Interiors screen 2" /><div><span class="screen-number">Screen 02</span><h4>Screen 02</h4><p>Provided product screen for the DC Interiors proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/dc-interiors-screen-03.png" alt="DC Interiors screen 3" /><div><span class="screen-number">Screen 03</span><h4>Screen 03</h4><p>Provided product screen for the DC Interiors proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/dc-interiors-screen-04.png" alt="DC Interiors screen 4" /><div><span class="screen-number">Screen 04</span><h4>Screen 04</h4><p>Provided product screen for the DC Interiors proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/dc-interiors-screen-05.png" alt="DC Interiors screen 5" /><div><span class="screen-number">Screen 05</span><h4>Screen 05</h4><p>Provided product screen for the DC Interiors proof of concept.</p></div></article>
+          </div>
+        </div>
+      </section>
+      <section class="case-study section" id="sri-parasakthi-peetam">
+        <div class="case-hero reveal">
+          <div>
+            <p class="eyebrow">Sri Parasakthi Peetam</p>
+            <h2>Spiritual services website POC for bookings, donations and devotee engagement</h2>
+            <p>Sri Parasakthi Peetam is a spiritual services platform concept for Homam bookings, devotee information, donations and community updates.</p>
+          </div>
+          <img src="images/sri-parasakthi-peetam-icon.jpg" alt="Sri Parasakthi Peetam POC identity image" />
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">01</p>
+          <h3>Problem Statements</h3>
+          <div class="info-grid">
+            <article class="info-card"><span>01</span><h4>Managing Homam bookings, devotee details, donations and spiritual services through separate processes created operational gaps</h4><p>Managing Homam bookings, devotee details, donations and spiritual services through separate processes created operational gaps.</p></article>
+            <article class="info-card"><span>02</span><h4>Devotees had limited access to personalized spiritual services, schedules and guidance through a centralized digital system</h4><p>Devotees had limited access to personalized spiritual services, schedules and guidance through a centralized digital system.</p></article>
+            <article class="info-card"><span>03</span><h4>Managing spiritual content, updates and devotee engagement manually made consistent communication difficult</h4><p>Managing spiritual content, updates and devotee engagement manually made consistent communication difficult.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">02</p>
+          <h3>Solutions</h3>
+          <div class="info-grid">
+            <article class="info-card solution-card"><span>01</span><h4>An Integrated Spiritual Services Platform manages Homam bookings, devotee information, donations and services digitally</h4><p>An Integrated Spiritual Services Platform manages Homam bookings, devotee information, donations and services digitally.</p></article>
+            <article class="info-card solution-card"><span>02</span><h4>A Personalized Devotee Engagement System provides service information, spiritual guidance, Homam details and digital interactions in one place</h4><p>A Personalized Devotee Engagement System provides service information, spiritual guidance, Homam details and digital interactions in one place.</p></article>
+            <article class="info-card solution-card"><span>03</span><h4>A Digital Content and Community Hub manages spiritual blogs, updates, schedules and ongoing devotee engagement</h4><p>A Digital Content and Community Hub manages spiritual blogs, updates, schedules and ongoing devotee engagement.</p></article>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">03</p>
+          <h3>Tech Stack</h3>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>TanStack Start</span>
+            <span>Vite</span>
+            <span>Tailwind CSS</span>
+            <span>Supabase</span>
+            <span>Razorpay</span>
+            <span>React Hook Form</span>
+            <span>Zod</span>
+            <span>Radix UI</span>
+            <span>QRCode</span>
+          </div>
+        </div>
+
+        <div class="ordered-section reveal">
+          <p class="eyebrow">04</p>
+          <h3>Screens</h3>
+          <article class="featured-screen dc-feature">
+            <div class="landscape-frame">
+              <img src="images/sri-parasakthi-peetam-screen-01.png" alt="Sri Parasakthi Peetam primary screen" />
+            </div>
+            <div class="screen-copy">
+              <span class="screen-number">Screen 01</span>
+              <h4>Primary Screen</h4>
+              <p>Opening screen provided for the Sri Parasakthi Peetam proof of concept.</p>
+            </div>
+          </article>
+          <div class="landscape-grid">
+            <article class="landscape-card"><img src="images/sri-parasakthi-peetam-screen-02.png" alt="Sri Parasakthi Peetam screen 2" /><div><span class="screen-number">Screen 02</span><h4>Screen 02</h4><p>Provided product screen for the Sri Parasakthi Peetam proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sri-parasakthi-peetam-screen-03.png" alt="Sri Parasakthi Peetam screen 3" /><div><span class="screen-number">Screen 03</span><h4>Screen 03</h4><p>Provided product screen for the Sri Parasakthi Peetam proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sri-parasakthi-peetam-screen-04.png" alt="Sri Parasakthi Peetam screen 4" /><div><span class="screen-number">Screen 04</span><h4>Screen 04</h4><p>Provided product screen for the Sri Parasakthi Peetam proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sri-parasakthi-peetam-screen-05.png" alt="Sri Parasakthi Peetam screen 5" /><div><span class="screen-number">Screen 05</span><h4>Screen 05</h4><p>Provided product screen for the Sri Parasakthi Peetam proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sri-parasakthi-peetam-screen-06.png" alt="Sri Parasakthi Peetam screen 6" /><div><span class="screen-number">Screen 06</span><h4>Screen 06</h4><p>Provided product screen for the Sri Parasakthi Peetam proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sri-parasakthi-peetam-screen-07.png" alt="Sri Parasakthi Peetam screen 7" /><div><span class="screen-number">Screen 07</span><h4>Screen 07</h4><p>Provided product screen for the Sri Parasakthi Peetam proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sri-parasakthi-peetam-screen-08.png" alt="Sri Parasakthi Peetam screen 8" /><div><span class="screen-number">Screen 08</span><h4>Screen 08</h4><p>Provided product screen for the Sri Parasakthi Peetam proof of concept.</p></div></article>
+            <article class="landscape-card"><img src="images/sri-parasakthi-peetam-screen-09.png" alt="Sri Parasakthi Peetam screen 9" /><div><span class="screen-number">Screen 09</span><h4>Screen 09</h4><p>Provided product screen for the Sri Parasakthi Peetam proof of concept.</p></div></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
